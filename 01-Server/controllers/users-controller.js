@@ -3,6 +3,7 @@ const usersLogic = require("../business-logic-layer/users-logic");
 const User = require("../models/user");
 const router = express.Router();
 
+
 // POST http://localhost:3000/api/vacations
 router.post("/", async (request, response) => {
     try {
