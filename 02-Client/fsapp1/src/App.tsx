@@ -1,12 +1,14 @@
 import React from 'react';
 
+import Layout from "../src/components/layout/layout";
+
 const App = () => {
   return (
-    <div>
+    <Layout>
       <h1>
         Hello Word
       </h1>
-    </div>
+    </Layout>
   );
 } 
 
